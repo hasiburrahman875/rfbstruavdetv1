@@ -1,3 +1,7 @@
+
+# **This is the repo for the implementation of "Airborne Object Detection from Moving Drones with Multiple
+Receptive Field Blocks and Swin Transformer" is submitted in IROS-25.**
+
 # Validation Instructions
 
 ## 1. Clone the Repository
