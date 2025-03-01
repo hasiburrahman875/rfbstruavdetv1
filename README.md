@@ -1,6 +1,8 @@
 
 # This is the repo for the implementation of "Airborne Object Detection from Moving Drones with Multiple Receptive Field Blocks and Swin Transformer" _submitted in IROS-25_
 
+# RFB-SPATIAL Implementation
+
 # Validation Instructions
 
 ## 1. Clone the Repository
@@ -43,4 +45,15 @@ Ensure that the paths and parameters are correctly provided before running the c
 **Note:**
 - For the FL-Drone dataset, the image size (`--img`) should be at most **640**.
 - For other datasets, the image size can be **1280, 800, or 640**.
+
+# Training Instructions
+
+## 1. Download and configure the dataset path mentioned above
+
+## 2. Run Training
+Activate the Python environment and execute the following command in the terminal:
+```bash
+python train.py --data data/dataset_name.yaml --hyp data/hyps/hyp.UAVDT.yaml --img 1280 --device 0,1 --batch 8 --cfg models/rf-aod.yaml --epoch 300 --adam --name experiment_name 
+```
+Ensure that the paths and parameters are correctly provided before running the command.
 
