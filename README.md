@@ -20,7 +20,9 @@ pip install -r requirements.txt
 ```
 
 ## 3. Download Datasets and Weights
-Follow the dataset download instructions to obtain the necessary datasets and pre-trained weights.
+Follow the dataset download instructions to obtain the necessary datasets and pre-trained weights. 
+Dataset Link: https://mailmissouri-my.sharepoint.com/:f:/r/personal/mrpk9_umsystem_edu/Documents/Reserach%20Synch/IROS/Dataset?csf=1&web=1&e=CEcHBp
+Weights Link: https://mailmissouri-my.sharepoint.com/:f:/r/personal/mrpk9_umsystem_edu/Documents/Reserach%20Synch/IROS/Weights?csf=1&web=1&e=elEXit
 
 ## 4. Configure Dataset Paths
 Modify the corresponding YAML file to specify the training and testing folder paths. Update the file located at:
