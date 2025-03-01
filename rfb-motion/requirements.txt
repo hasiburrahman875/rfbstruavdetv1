@@ -3,7 +3,7 @@
 # Base ----------------------------------------
 matplotlib>=3.2.2
 opencv-python>=4.1.2
-Pillow>=7.1.2
+Pillow>=9.2
 PyYAML>=5.3.1
 requests>=2.23.0
 scipy>=1.4.1
@@ -36,6 +36,5 @@ ensemble_boxes
 
 
 opencv-contrib-python
-Pillow
 einops
 decord
