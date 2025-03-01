@@ -36,6 +36,13 @@ Activate the Python environment and execute the following command in the termina
 python val.py --data data/dataset_name.yaml --weights path_to_the_weight --img provide_img_size --batch 1 --name experiment_name
 ```
 Ensure that the paths and parameters are correctly provided before running the command.
+Note:
+
+For the FL-Drone dataset, the image size (--img) should be at most 640.
+
+For other datasets, the image size can be 1280, 800, or 640.
+
+
 
 
    
