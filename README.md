@@ -24,9 +24,9 @@ pip install -r requirements.txt
 ## 3. Download Datasets and Weights
 Follow the dataset download instructions to obtain the necessary datasets and pre-trained weights. 
 
-**Dataset Link:** https://mailmissouri-my.sharepoint.com/:f:/r/personal/mrpk9_umsystem_edu/Documents/Reserach%20Synch/IROS/Dataset?csf=1&web=1&e=CEcHBp
+**Dataset Link:** https://mailmissouri-my.sharepoint.com/:f:/g/personal/mrpk9_umsystem_edu/EtkiYMp_l7pKhGL_yuSdfPMBiLBS1wxl3w2xRRcO3Es7Fw?e=I7Gs0e
 
-**Weights Link:** https://mailmissouri-my.sharepoint.com/:f:/r/personal/mrpk9_umsystem_edu/Documents/Reserach%20Synch/IROS/Weights?csf=1&web=1&e=elEXit
+**Weights Link:** https://mailmissouri-my.sharepoint.com/:f:/g/personal/mrpk9_umsystem_edu/Eoh8hdcmINtFiSlTDEFLIbsB8FggMe2k85hHf3qnAXxuJg?e=GOGkcZ
 
 ## 4. Configure Dataset Paths
 Modify the corresponding YAML file to specify the training and testing folder paths, number of classes, and class names. Update the file located at:
@@ -52,4 +52,8 @@ Activate the Python environment and execute the following command in the termina
 python train.py --data data/dataset_name.yaml --hyp data/hyps/hyp.UAVDT.yaml --img 1280 --device 0,1 --batch 8 --cfg models/rf-aod.yaml --epoch 300 --adam --name experiment_name 
 ```
 Ensure that the paths and parameters are correctly provided before running the command.
+
+# RFB-SPAT-TEMP Implementation
+
+
 
