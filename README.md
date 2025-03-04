@@ -72,7 +72,7 @@ If you face any issues while preparing the **FL-Drone dataset**, please refer to
 
 Please follow the instructions in the linked repository to ensure the dataset formatting and structure are correct. 
 
-In the [rfb-motion/utils/datasets.py](https://github.com/hasiburrahman875/rfbstruavdetv1/blob/main/rfb-motion/utils/datasets.py), change the format of the frames (jpg or png) as needed.
+In the [rfb-motion/utils/datasets.py](https://github.com/hasiburrahman875/rfbstruavdetv1/blob/main/rfb-motion/utils/datasets.py) (line 693), change the format of the frames (jpg or png) as needed.
 
 
 ## 2. Run Validation
