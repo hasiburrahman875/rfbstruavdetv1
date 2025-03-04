@@ -34,6 +34,8 @@ albumentations>=1.0.3
 thop  # FLOPs computation
 ensemble_boxes
 
+mmcv-full == 1.7
+mmengine
 
 opencv-contrib-python
 einops
