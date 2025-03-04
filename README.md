@@ -84,5 +84,15 @@ python val.py --data data/dataset_name.yaml --weights path_to_the_weight --img p
 ```
 Ensure that the paths and parameters are correctly provided before running the command.
 
+# Training Instructions
+
+## 1. Download and configure the dataset path mentioned above
+
+## 2. Run Training
+Activate the Python environment and execute the following command in the terminal:
+```bash
+python train.py --data data/dataset_name.yaml --hyp data/hyps/hyp.UAVDT.yaml --img 1280 --device 0,1 --batch 2 --cfg models/rf-aod.yaml --epoch 300 --adam --num-frame 5 --name experiment_name 
+```
+Ensure that the paths and parameters are correctly provided before running the command.
 
 
