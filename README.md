@@ -42,10 +42,6 @@ python val.py --data data/dataset_name.yaml --weights path_to_the_weight --img p
 ```
 Ensure that the paths and parameters are correctly provided before running the command.
 
-**Note:**
-- For the FL-Drone dataset, the image size (`--img`) should be at most **640**.
-- For other datasets, the image size can be **1280, 800, or 640**.
-
 # Training Instructions
 
 ## 1. Download and configure the dataset path mentioned above
