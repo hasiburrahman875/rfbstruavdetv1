@@ -55,5 +55,32 @@ Ensure that the paths and parameters are correctly provided before running the c
 
 # RFB-SPAT-TEMP Implementation
 
+# Validation Instructions
+
+## 1. Configure Dataset Paths
+Modify the corresponding YAML file to specify the training and testing folder paths, video folder paths, number of classes, and class names. Update the file located at:
+```bash
+data/dataset_name.yaml
+```
+Set the correct paths for your dataset. 
+
+# Note: If you face any issues while preparing the **FL-Drone dataset**, please refer to the previous work:
+
+[TransVisDrone - Dataset Preparation](https://github.com/tusharsangam/TransVisDrone)
+
+Please follow the instructions in the linked repository to ensure the dataset formatting and structure are correct. 
+
+In the [rfb-motion/utils/datasets.py](https://github.com/hasiburrahman875/rfbstruavdetv1/blob/main/rfb-motion/utils/datasets.py), change the format of the frames (jpg or png) as needed.
+
+
+## 2. Run Validation
+
+Activate the Python environment as above and execute the following command in the terminal:
+
+```bash
+python val.py --data data/dataset_name.yaml --weights path_to_the_weight --img provide_img_size --batch 1 --num-frame 5 --name experiment_name
+```
+Ensure that the paths and parameters are correctly provided before running the command.
+
 
 
