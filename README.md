@@ -64,7 +64,7 @@ data/dataset_name.yaml
 ```
 Set the correct paths for your dataset. 
 
-# Note: 
+### Note: 
 
 If you face any issues while preparing the **FL-Drone dataset**, please refer to the previous work:
 
