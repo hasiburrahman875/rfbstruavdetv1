@@ -56,9 +56,27 @@ Ensure that the paths and parameters are correctly provided before running the c
 
 ## RFB-SPAT-TEMP Implementation
 
+### Download the weights and datasets from the above link.
+
 ## Validation Instructions
 
-### 1. Configure Dataset Paths
+### 1. Clone the Repository
+Clone the repository to your local machine using the following command:
+```bash
+git clone <repository_url>
+cd <repository_name>
+```
+
+### 2. Set Up Python Environment
+Create a Python environment and install the required dependencies from `requirements.txt` inside the `rfb-spatial` folder:
+```bash
+cd rfb-motion
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+pip install -r requirements.txt
+```
+ 
+### 3. Configure Dataset Paths
 Modify the corresponding YAML file to specify the training and testing folder paths, video folder paths, number of classes, and class names. Update the file located at:
 ```bash
 data/dataset_name.yaml
@@ -76,7 +94,7 @@ Please follow the instructions in the linked repository to ensure the dataset fo
 In the [rfb-motion/utils/datasets.py](https://github.com/hasiburrahman875/rfbstruavdetv1/blob/main/rfb-motion/utils/datasets.py) (line 693), change the format of the frames (jpg or png) as needed.
 
 
-### 2. Run Validation
+### 4. Run Validation
 
 Activate the Python environment as above and execute the following command in the terminal:
 
