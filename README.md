@@ -21,12 +21,13 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 3. Download Datasets and Weights
-Follow the dataset download instructions to obtain the necessary datasets and pre-trained weights. 
+## 3. Download Datasets and Weights  
+Follow the dataset download instructions to obtain the necessary datasets and pre-trained weights.  
 
-**Dataset Link:** https://mailmissouri-my.sharepoint.com/:f:/g/personal/mrpk9_umsystem_edu/EtkiYMp_l7pKhGL_yuSdfPMBiLBS1wxl3w2xRRcO3Es7Fw?e=I7Gs0e
+**Dataset Link:** [Download Dataset](https://mailmissouri-my.sharepoint.com/:f:/g/personal/mrpk9_umsystem_edu/EtkiYMp_l7pKhGL_yuSdfPMBiLBS1wxl3w2xRRcO3Es7Fw?e=I7Gs0e)  
 
-**Weights Link:** https://mailmissouri-my.sharepoint.com/:f:/g/personal/mrpk9_umsystem_edu/Eoh8hdcmINtFiSlTDEFLIbsB8FggMe2k85hHf3qnAXxuJg?e=GOGkcZ
+**Weights Link:** [Download Weights](https://mailmissouri-my.sharepoint.com/:f:/g/personal/mrpk9_umsystem_edu/Eoh8hdcmINtFiSlTDEFLIbsB8FggMe2k85hHf3qnAXxuJg?e=GOGkcZ)  
+
 
 ## 4. Configure Dataset Paths
 Modify the corresponding YAML file to specify the training and testing folder paths, number of classes, and class names. Update the file located at:
