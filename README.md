@@ -64,7 +64,9 @@ data/dataset_name.yaml
 ```
 Set the correct paths for your dataset. 
 
-# Note: If you face any issues while preparing the **FL-Drone dataset**, please refer to the previous work:
+# Note: 
+
+If you face any issues while preparing the **FL-Drone dataset**, please refer to the previous work:
 
 [TransVisDrone - Dataset Preparation](https://github.com/tusharsangam/TransVisDrone)
 
