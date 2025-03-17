@@ -17,6 +17,8 @@ from threading import Thread
 
 import numpy as np
 import torch
+torch.backends.cudnn.benchmark = True
+torch.backends.cudnn.deterministic = False
 from tqdm import tqdm
 
 FILE = Path(__file__).resolve()
@@ -280,7 +282,8 @@ def run(data,
         #plot_val_images_for_me(img, paths, shapes, targets, main_target_indices)
         # Run model
         #print(paths)
-        out, train_out = model(img, augment=augment)  # inference and training outputs
+        with torch.cuda.amp.autocast():
+            out, train_out = model(img, augment=False)  # inference and training outputs
         
         dt[1] += time_sync() - t2
         
