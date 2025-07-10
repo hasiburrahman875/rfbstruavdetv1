@@ -1,5 +1,5 @@
 
-## This is the repo for the implementation of "Airborne Object Detection from Moving Drones with Multiple Receptive Field Blocks and Swin Transformer" _submitted in IROS-25_
+## This is the repo for the implementation of "Airborne Object Detection from Moving Drones with Multiple Receptive Field Blocks and Swin Transformer"
 
 ## RFB-SPATIAL Implementation
 
